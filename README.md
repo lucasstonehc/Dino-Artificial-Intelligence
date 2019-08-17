@@ -1,5 +1,5 @@
 # Dino-Artificial-Intelligence
-  ![alt text](https://github.com/lucasstonehc/Dino-Artificial-Intelligence/blob/master/maxresdefault.jpg)
+  ![alt text](https://github.com/lucasstonehc/Dino-Artificial-Intelligence/blob/master/Dino.png)
 
 
 # What is Reinforcement learning ?
