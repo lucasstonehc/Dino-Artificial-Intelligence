@@ -12,6 +12,8 @@
   
   The goal of a reinforcement learning agent is ***to collect as much reward as possible***. (this part is very important) => The agent can (possibly randomly) choose any action as a function of the ***history***.
   
+  ###Legends:
+  
   O{t} = observation in time T.
 
   R{t} = reward in time T.
