@@ -25,4 +25,11 @@
   # Algorithm Q-Learning (State->Action->Reward->State).
   The goal of Q-learning is to learn a policy, which tells an agent what action to take under what circumstances.
   
-  The weight for a step from a state {\displaystyle \Delta t} \Delta t steps into the future is calculated as {\displaystyle \gamma ^{\Delta t}} \gamma ^{{\Delta t}}. {\displaystyle \gamma } \gamma  (the discount factor) is a number between 0 and 1 ( {\displaystyle 0\leq \gamma \leq 1} 0\leq \gamma \leq 1) and has the effect of valuing rewards received earlier higher than those received later (reflecting the value of a "good start"). {\displaystyle \gamma } \gamma  may also be interpreted as the probability to succeed (or survive) at every step {\displaystyle \Delta t} \Delta t.
+  
+  The algorithm, therefore, has a function that calculates the quality of a ***state-action*** combination:
+   Q: S x A => {R}. 
+   
+   this part is how to algorithm works:
+   
+   Before learning begins, Q is initialized to a possibly arbitrary fixed value ***(chosen by the programmer)***. Then, at each time T the agent selects an action A{t}, observes a reward R{t}, and go to a new state S{t+1} (that may depend on both the previous state S{t} and the selected action), and Q is updated. 
+   The ***core of the algorithm*** is a simple value iteration update, using the ***weighted average of the old value*** and the new information.
