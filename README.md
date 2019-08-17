@@ -22,4 +22,4 @@
 
   S{t},A{t},S{t+1} = State of agent in time T, Agent does action and the new State of agent is determined.
 
-  algorithm Q-Learning State->Action->Reward->State.
+  # Algorithm Q-Learning (State->Action->Reward->State).
