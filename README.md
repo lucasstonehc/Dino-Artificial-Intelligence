@@ -23,3 +23,6 @@
   S{t},A{t},S{t+1} = State of agent in time T, Agent does action and the new State of agent is determined.
 
   # Algorithm Q-Learning (State->Action->Reward->State).
+  The goal of Q-learning is to learn a policy, which tells an agent what action to take under what circumstances.
+  
+  The weight for a step from a state {\displaystyle \Delta t} \Delta t steps into the future is calculated as {\displaystyle \gamma ^{\Delta t}} \gamma ^{{\Delta t}}. {\displaystyle \gamma } \gamma  (the discount factor) is a number between 0 and 1 ( {\displaystyle 0\leq \gamma \leq 1} 0\leq \gamma \leq 1) and has the effect of valuing rewards received earlier higher than those received later (reflecting the value of a "good start"). {\displaystyle \gamma } \gamma  may also be interpreted as the probability to succeed (or survive) at every step {\displaystyle \Delta t} \Delta t.
