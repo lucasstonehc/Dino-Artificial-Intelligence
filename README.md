@@ -1,6 +1,6 @@
 # Dino-Artificial-Intelligence
   ![alt text](https://github.com/lucasstonehc/Dino-Artificial-Intelligence/blob/master/Dino.png)
-
+  Link of tutorial: https://medium.com/acing-ai/how-i-build-an-ai-to-play-dino-run-e37f37bdf153
 
 # What is Reinforcement learning ?
 
