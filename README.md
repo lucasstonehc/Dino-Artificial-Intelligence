@@ -34,3 +34,6 @@
    Before learning begins, Q is initialized to a possibly arbitrary fixed value ***(chosen by the programmer)***. Then, at each time T the agent selects an action A{t}, observes a reward R{t}, and go to a new state S{t+1} (that may depend on both the previous state S{t} and the selected action), and Q is updated. 
    
    The ***core of the algorithm*** is a simple value iteration update, using the ***weighted average of the old value*** and the new information.
+
+### Influence of variables into the Algorithm Q-Learing
+
