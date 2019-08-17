@@ -26,6 +26,8 @@
   
   Q-learning is a model-less implementation of ***REINFORCEMENT LEARNING*** where a table of Q values is maintained against each state, action taken and the resulting reward.
   
+  Here is a simple example: Q-table should give us the idea how the data is structured. In our case, the states are game screenshots and action jump and do nothing [0,1]
+  
   The goal of Q-learning is to learn a policy, which tells an agent what action to take under what circumstances.
   
   The algorithm, therefore, has a function that calculates the quality of a ***state-action*** combination:
