@@ -1,14 +1,14 @@
 # Dino-Artificial-Intelligence
-                Jump          Jump          Jump
- e-e           . - .         . - .         . - .          
-(\_/)\       '       `.   ,'       `.   ,'       .        
- `-'\ `--.___,         . .           . .          .       
-    '\( ,_.-'                                             
-       \\               "             "            :    
-       ^'
+                  Jump          Jump          Jump
+   e-e           . - .         . - .         . - .          
+  (\_/)\       '       `.   ,'       `.   ,'       .        
+   `-'\ `--.___,         . .           . .          .       
+      '\( ,_.-'                                             
+         \\               "             "            :    
+         ^'
 
 
-#What is Reinforcement learning ?
+# What is Reinforcement learning ?
 
   A reinforcement learning agent interacts with its environment in discrete time steps. At each time t, the agent receives an observation O{t} = observation in time T, which typically includes the reward R{t} = reward in time T.
   
