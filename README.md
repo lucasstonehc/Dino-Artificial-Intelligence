@@ -1,1 +1,4 @@
 # Dino-Artificial-Intelligence
+
+#What is Reinforcement learning ?
+  A reinforcement learning agent interacts with its environment in discrete time steps. At each time t, the agent receives an observation {\displaystyle o_{t}} o_{t}, which typically includes the reward {\displaystyle r_{t}} r_{t}. It then chooses an action {\displaystyle a_{t}} a_{t} from the set of available actions, which is subsequently sent to the environment. The environment moves to a new state {\displaystyle s_{t+1}} s_{t+1} and the reward {\displaystyle r_{t+1}} r_{t+1} associated with the transition {\displaystyle (s_{t},a_{t},s_{t+1})} (s_{t},a_{t},s_{t+1}) is determined. The goal of a reinforcement learning agent is to collect as much reward as possible. The agent can (possibly randomly) choose any action as a function of the history.
