@@ -23,8 +23,10 @@
   S{t},A{t},S{t+1} = State of agent in time T, Agent does action and the new State of agent is determined.
 
   # Algorithm Q-Learning (State->Action->Reward->State).
-  The goal of Q-learning is to learn a policy, which tells an agent what action to take under what circumstances.
   
+  Q-learning is a model-less implementation of ***REINFORCEMENT LEARNING*** where a table of Q values is maintained against each state, action taken and the resulting reward.
+  
+  The goal of Q-learning is to learn a policy, which tells an agent what action to take under what circumstances.
   
   The algorithm, therefore, has a function that calculates the quality of a ***state-action*** combination:
    Q: S x A => {R}. 
