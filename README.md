@@ -1,11 +1,5 @@
 # Dino-Artificial-Intelligence
-                  Jump          Jump          Jump
-   e-e           . - .         . - .         . - .          
-  (\_/)\       '       `.   ,'       `.   ,'       .        
-   `-'\ `--.___,         . .           . .          .       
-      '\( ,_.-'                                             
-         \\               "             "            :    
-         ^'
+  ![alt text](https://github.com/lucasstonehc/Dino-Artificial-Intelligence/blob/master/maxresdefault.jpg)
 
 
 # What is Reinforcement learning ?
