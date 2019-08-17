@@ -36,4 +36,5 @@
    The ***core of the algorithm*** is a simple value iteration update, using the ***weighted average of the old value*** and the new information.
 
 ### Influence of variables into the Algorithm Q-Learing
+  Learning Rate is optimal when ***Alpha*** is equal 1.
 
